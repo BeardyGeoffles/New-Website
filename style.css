@@ -66,4 +66,8 @@ form input, textarea{
     #banner img{
         width: 50%;
     }
+    #carouselExampleIndicators{
+        width: 50%;
+    }
 }
+
