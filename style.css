@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 .dance-font{
-    font-family: 'Antonio', sans-serif;
+    /* font-family: 'Antonio', sans-serif; */
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Amatic SC', cursive;
+}
+
+.BGtext{
+font-size: 100px;
 }
 
 .hero{
@@ -61,6 +69,18 @@ form input, textarea{
     align-items: center;
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+    #spin {
+        animation: rotation infinite 3s linear;
+    }
 
 @media (min-width: 1200px) {
     #banner img{
