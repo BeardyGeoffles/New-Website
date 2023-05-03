@@ -18,8 +18,17 @@
     font-size: 1.5rem;
 }
 
+.nav-link:hover{
+    color: yellow;
+
+}
+
 .navbar-brand{
     font-size: 2rem;
+}
+
+.contlink{
+    text-decoration: none;
 }
 
 
